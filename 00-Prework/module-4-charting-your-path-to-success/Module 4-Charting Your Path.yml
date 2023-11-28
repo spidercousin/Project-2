@@ -1,0 +1,10 @@
+name: "Module 4: Charting Your Path to Success"
+items:
+  - type: subheader
+    title: Getting the Most Out of the Course
+  - type: page
+    title: "4.1.1: Keys to Success"
+    body: "4-dot-1-1-keys-to-success.md"
+  - type: page
+    title: "4.1.2: Be Original"
+    body: "4-dot-1-2-be-original.md"

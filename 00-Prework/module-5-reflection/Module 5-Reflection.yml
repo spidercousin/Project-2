@@ -1,0 +1,10 @@
+name: "Module 5: Reflection"
+items:
+  - type: assignment
+    title: "5.1 Verify Your Setup (Required)"
+    body: "verify_setup.md"
+  - type: subheader
+    title: Resources
+  - type: page
+    title: "5.1.1: Additional Resources"
+    body: "5-dot-1-1-additional-resources.md"
