@@ -3,19 +3,24 @@
 ## Project Statement
 The real estate market is characterized by pricing volatility influenced by economic conditions, market demand, and localized factors such as neighborhood desirability, school districts, and proximity to amenities. Additionally, geographical attributes like climate, urban density, and regional economic trends significantly impact property pricing and the time required to sell a home.
 
-In response to these challenges, the objective of this project is to develop an AI-powered solution that leverages historical housing market data from the ATTOM API to predict housing prices based on user-inputted real estate and housing attributes. By training a machine learning model with extensive historical data, the project aims to provide buyers and sellers with actionable insights into optimal listing and offer prices. This solution will empower users to make informed decisions aligned with their selling or purchasing goals, enhancing transparency and efficiency in the housing market.
+In response to these challenges, the objective of this project is to develop an AI-powered solution that leverages historical housing market data from the ATTOM API to predict housing prices based on information input by users such as desired real estate location and housing attributes. By training a machine learning model with extensive historical data, the project aims to provide buyers and sellers with actionable insights into optimal listing and offer prices. This solution will empower users to make informed decisions aligned with their selling or purchasing goals, enhancing transparency and efficiency in the housing market.
 
-## The Housing Prediction Sales Analysis Tool
-The Housing Prediction Sales Analysis Tool is an application designed to evaluate how various factors impact real estate pricing in patterns in various locations impact energy consumption. The application relies on historical housing sales data from [ATTOM] (https://www.attomdata.com/) and historical geographical data from [Need Source Here](https://www.)
+## SmartPrice Intelligence Navigator (SPIN)
+
+The SmartPrice Intelligence Navigator (SPIN) is an AI-powered solution designed to revolutionize how buyers and sellers interact with the housing market. Combining advanced machine learning with rich historical data from the ATTOM API, SPIN predicts housing prices and market performance with exceptional accuracy. SPIN is an application designed to evaluate how various factors impact real estate pricing in patterns in different geographical locations. The application relies on historical housing sales data from [ATTOM](https://www.attomdata.com/) and historical geographical data from [Need Source Here](https://www.).
+
+By evaluating factors like property features, neighborhood characteristics, and localized economic conditions, SPIN offers tailored guidance on listing and offer prices. It also accounts for broader influences such as seasonal trends and regional market dynamics, enabling users to respond strategically to market volatility.
+
+SPIN’s intuitive design and insightful recommendations empower users to make data-driven decisions, whether they aim to sell at the highest possible price or buy a home that aligns with their budget and goals. Its focus on clarity and precision makes SPIN an essential navigator in the ever-changing real estate landscape.
 
 ## Programming Language and Technology
 The Housing Prediction Analysis Tool is written in [Python](https://www.python.org/) using [Visual Studio Code](https://code.visualstudio.com/) and the [JSON](https://www.json.org/json-en.html) data interchange format.
 
 Visualizations are provided through the use of [Matplotlib](https://matplotlib.org/) and [Prophet](https://pypi.org/project/prophet/).
 
-Energy statistics and analysis information were retrieved from [EIA](https://www.eia.gov/opendata/browser/) and weather information was retrieved from [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api).
+Real estate statistics and analysis information were retrieved from [ATTOM](https://www.attomdata.com/) and geographical information was retrieved from [Geoapify](https://www.geoapify.com/). 
 
-The [Pandas](https://pandas.pydata.org/) and [Numpy](https://numpy.org/) libraries were used to work with the historical real estate and geographical data retrieved from the [U.S. Energy Information Administration] (https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/) and [Geoapify](https://www.geoapify.com/) APIs.
+The [Pandas](https://pandas.pydata.org/) and [Numpy](https://numpy.org/) libraries were used to work with the historical real estate and geographical data retrieved from [Geoapify](https://www.geoapify.com/) APIs.
 
 ## Installation Guide
 
