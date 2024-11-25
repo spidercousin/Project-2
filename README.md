@@ -33,7 +33,7 @@ The following Python packages must be installed to run the application locally:
 
 These packages may be individually installed into the environment of your choice. You will also need to obtain an API key for the ATTOM API and store it as ATTOM_API_Key in a file named local_keys.env. Alternatively, you may enter your ATTOM API key into the code manually, if desired. Additionally, you will need to obtain an API key from Geoapify and store it in your local_keys.env file as geo.
 
-**Project GoalS:** 
+**Project Goals:** 
   1. Make a prediction model that will help determine the best pricing and the best time to buy or sell a home within any given market.
   2. Develop a user interface for the user to input information specific to the housing market they are interested in exploring.
   
