@@ -119,7 +119,7 @@ These questions aim to guide the data exploration and model development process,
 For Property Data:
   - ATTOM API: [ATTOM](https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/)
   - RentCast API: [RentCast API](https://developers.rentcast.io/reference/value-estimate)
-  - Zillow API:[Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
+  - Zillow API: [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
 
 For Geolocation:
   - Geoapify API: [Geoapify](https://www.geoapify.com/)
