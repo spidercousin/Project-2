@@ -44,12 +44,12 @@ These packages may be individually installed into the environment of your choice
   
 **Impacts on Goal:**
   1. Geo-location
-  2. Job industry
-  3. Crime rates
-  4. Intrest rate
-  5. Property taxes
+  2. Job Industry
+  3. Crime Rates
+  4. Interest Rate
+  5. Property Taxes
   6. Schools
-  7. Leisure activities
+  7. Leisure Activities
 
   ## Initial Research Questions
 
@@ -120,7 +120,7 @@ For Property Data:
   - Zillow API: [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
 
 For Geolocation:
-  - Geoapify API: [https://www.geoapify.com/]
+  - Geoapify API: [Geoapify](https://www.geoapify.com/)
 
 ## Initial Visualization Goals
 
