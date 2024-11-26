@@ -7,7 +7,7 @@ In response to these challenges, the objective of this project is to develop an 
 
 ## SmartPrice Intelligence Navigator (SPIN)
 
-The SmartPrice Intelligence Navigator (SPIN) is an AI-powered solution designed to revolutionize how buyers and sellers interact with the housing market. Combining advanced machine learning with rich historical data from the ATTOM API, SPIN predicts housing prices and market performance with exceptional accuracy. SPIN is an application designed to evaluate how various factors impact real estate pricing in patterns in different geographical locations. The application relies on historical housing sales data from [ATTOM](https://www.attomdata.com/) and historical geographical data from [Need Source Here](https://www.).
+The SmartPrice Intelligence Navigator (SPIN) is an AI-powered solution designed to revolutionize how buyers and sellers interact with the housing market. Combining advanced machine learning with rich historical data from the ATTOM API, SPIN predicts housing prices and market performance with exceptional accuracy. SPIN is an application designed to evaluate how various factors impact real estate pricing in patterns in different geographical locations. The application relies on historical housing sales data from [ATTOM](https://www.attomdata.com/), [RentCast](https://developers.rentcast.io/reference/value-estimate), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and historical geographical data from [Geoapify](https://www.geoapify.com/).
 
 By evaluating factors like property features, neighborhood characteristics, and localized economic conditions, SPIN offers tailored guidance on listing and offer prices. It also accounts for broader influences such as seasonal trends and regional market dynamics, enabling users to respond strategically to market volatility.
 
@@ -18,7 +18,7 @@ The Housing Prediction Analysis Tool is written in [Python](https://www.python.o
 
 Visualizations are provided through the use of [Matplotlib](https://matplotlib.org/) and [Prophet](https://pypi.org/project/prophet/).
 
-Real estate statistics and analysis information were retrieved from [ATTOM](https://www.attomdata.com/), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and geographical information was retrieved from [Geoapify](https://www.geoapify.com/). 
+Real estate statistics and analysis information were retrieved from [ATTOM](https://www.attomdata.com/), [RentCast](https://developers.rentcast.io/reference/value-estimate), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and geographical information was retrieved from [Geoapify](https://www.geoapify.com/). 
 
 The [Pandas](https://pandas.pydata.org/) and [Numpy](https://numpy.org/) libraries were used to work with the historical real estate and geographical data retrieved from [Geoapify](https://www.geoapify.com/) APIs.
 
@@ -120,6 +120,9 @@ For Property Data:
   - ATTOM API: [ATTOM](https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/)
   - RentCast API: [RentCast API](https://developers.rentcast.io/reference/value-estimate)
   - Zillow API: [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
+
+For Local Market Data:
+  - LIST AN ECONOMIC MARKET DATA API HERE (CARSON TO SEARCH FOR ONE) NEED TO UPDATE THIS
 
 For Geolocation:
   - Geoapify API: [Geoapify](https://www.geoapify.com/)
