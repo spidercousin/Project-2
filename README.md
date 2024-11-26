@@ -57,33 +57,33 @@ Here are some initial research questions aligned with the project, including a f
 
 **Impact of Location and Amenities:**
 
-How does proximity to schools, attractions, and public transportation impact housing prices?
+- How does proximity to schools, attractions, and public transportation impact housing prices?
 What is the relationship between the quality of local schools and the average days a property stays on the market?
 How do neighborhood characteristics, such as crime rates and walkability, influence listing and offer prices?
 
 **Economic and Tax Impacts:**
 
--How do local property taxes and tax incentives affect housing pricing trends?
+- How do local property taxes and tax incentives affect housing pricing trends?
 What role do regional economic factors, such as employment rates and average income levels, play in housing market dynamics?
 
 **Temporal and Seasonal Trends:**
 
--How do seasonal trends and economic cycles influence housing prices and time on the market?
+- How do seasonal trends and economic cycles influence housing prices and time on the market?
 Are there specific months or quarters where homes are more likely to sell faster or at higher prices?
 
 **Market Dynamics and Competition:**
 
--How do supply and demand imbalances (e.g., number of homes for sale versus buyers) affect pricing accuracy and days on the market?
+- How do supply and demand imbalances (e.g., number of homes for sale versus buyers) affect pricing accuracy and days on the market?
 What patterns emerge in bidding wars or underpriced listings and their effect on the market?
 
 **Custom Attributes Analysis:**
 
--What specific real estate attributes (e.g., number of bedrooms, square footage, lot size) have the strongest predictive value for housing prices?
+- What specific real estate attributes (e.g., number of bedrooms, square footage, lot size) have the strongest predictive value for housing prices?
 How do unique features such as energy-efficient systems or smart home technology impact pricing and marketability?
 
 **Geographical Influences:**
 
--How do geographical attributes such as climate, coastal proximity, and urban versus rural settings influence pricing models?
+- How do geographical attributes such as climate, coastal proximity, and urban versus rural settings influence pricing models?
 Are there regional differences in housing price volatility, and how do these differences impact the predictability of selling prices and market durations?
 
 These questions aim to guide the data exploration and model development process, ensuring the project addresses key factors influencing the real estate market.
