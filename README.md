@@ -96,8 +96,8 @@ These questions aim to guide the data exploration and model development process,
   5. Run an accuracy report on each model to determine which model should be used for the deliverable.
   6. Pick and optimize the best model for UI implementation.
   7. Prompt users to input information
-      Area Code (SHOULD THIS BE ZIP CODE??)
-      Schools
+  8. Zip Code
+  9. Schools
 
 ## Data Model Implementation - Create Jupyter Notebook for Cleaning and Transformation Process (25 Points)
 
@@ -118,7 +118,8 @@ These questions aim to guide the data exploration and model development process,
 
 For Property Data:
   - ATTOM API: [ATTOM](https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/)
-  - Zillow API: [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
+  - RentCast API: [RentCast API](https://developers.rentcast.io/reference/value-estimate)
+  - Zillow API:[Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
 
 For Geolocation:
   - Geoapify API: [Geoapify](https://www.geoapify.com/)
