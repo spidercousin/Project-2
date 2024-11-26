@@ -18,7 +18,7 @@ The Housing Prediction Analysis Tool is written in [Python](https://www.python.o
 
 Visualizations are provided through the use of [Matplotlib](https://matplotlib.org/) and [Prophet](https://pypi.org/project/prophet/).
 
-Real estate statistics and analysis information were retrieved from [ATTOM](https://www.attomdata.com/) and geographical information was retrieved from [Geoapify](https://www.geoapify.com/). 
+Real estate statistics and analysis information were retrieved from [ATTOM](https://www.attomdata.com/), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and geographical information was retrieved from [Geoapify](https://www.geoapify.com/). 
 
 The [Pandas](https://pandas.pydata.org/) and [Numpy](https://numpy.org/) libraries were used to work with the historical real estate and geographical data retrieved from [Geoapify](https://www.geoapify.com/) APIs.
 
@@ -30,11 +30,11 @@ The application was developed using Python version 3.12.4. Other versions of Pyt
 
 The following Python packages must be installed to run the application locally:
 
-* matplotlib
-* numpy
-* pandas
-* prophet
-* jupyterlab (only if the .ipynb file is used. running the .py file does not require jupyterlab)
+* Matplotlib
+* Numpy
+* Pandas
+* Prophet
+* Jupyterlab (only if the .ipynb file is used. running the .py file does not require Jupyterlab)
 
 These packages may be individually installed into the environment of your choice. You will also need to obtain an API key for the ATTOM API and store it as ATTOM_API_Key in a file named local_keys.env. Alternatively, you may enter your ATTOM API key into the code manually, if desired. Additionally, you will need to obtain an API key from Geoapify and store it in your local_keys.env file as geo.
 
@@ -51,7 +51,7 @@ These packages may be individually installed into the environment of your choice
   6. Schools
   7. Leisure Activities
 
-  ## Initial Research Questions
+## Initial Research Questions
 
 Here are some initial research questions aligned with the project, including a focus on how various factors influence housing pricing and market dynamics:
 
@@ -106,7 +106,7 @@ These questions aim to guide the data exploration and model development process,
    
 ## Data Model Optimization (25 Points)
 
-**Discuss the model optimization and evaluation process showing iteritive changes made to the model and the resulting changes in model performance by documenting it in either a CSV/Excel table or in the Python script itself.**
+**Discuss the model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance by documenting it in either a CSV/Excel table or in the Python script itself.**
 - Data Collection Process
 - Data Cleanup Process
 - Data Exploration Process
