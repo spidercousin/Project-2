@@ -109,6 +109,7 @@ These questions aim to guide the data exploration and model development process,
 **Discuss the model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance by documenting it in either a CSV/Excel table or in the Python script itself.**
 - Data Collection Process
 - Data Cleanup Process
+- Data Normalization Process
 - Data Exploration Process
 - Description of How We Evaluated the Trained Model(s) Using Testing Data
 - The Approach We Took in Achieving the Project Goals
