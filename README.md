@@ -3,15 +3,15 @@
 ## Project Statement
 The real estate market is characterized by pricing volatility influenced by economic conditions, market demand, and localized factors such as neighborhood desirability, school districts, and proximity to amenities. Additionally, geographical attributes like climate, urban density, and regional economic trends significantly impact property pricing and the time required to sell a home.
 
-In response to these challenges, the objective of this project is to develop an AI-powered solution that leverages historical housing market data from the RentCast API to predict housing prices based on information input by users such as desired real estate location and housing attributes. By training a machine learning model with extensive historical data, the project aims to provide buyers and sellers with actionable insights into optimal listing and offer prices. This solution will empower users to make informed decisions aligned with their selling or purchasing goals, enhancing transparency and efficiency in the housing market.
+In response to these challenges, the objective of this project is to develop an AI-powered solution that leverages historical housing market data from the ATTOM API to predict housing prices based on information input by users such as desired real estate location and housing attributes. By training a machine learning model with extensive historical data, the project aims to provide buyers and sellers with actionable insights into optimal listing and offer prices. This solution will empower users to make informed decisions aligned with their selling or purchasing goals, enhancing transparency and efficiency in the housing market.
 
 ## SmartPrice Intelligence Navigator (SPIN)
 
-The SmartPrice Intelligence Navigator (SPIN) is an AI-powered solution designed to revolutionize how buyers and sellers interact with the housing market. Combining advanced machine learning with rich historical data from the Rentcast API, SPIN predicts housing prices and market performance with exceptional accuracy. SPIN is an application designed to evaluate how various factors impact real estate pricing patterns in different geographical locations. The application relies on historical housing sales data from sources such as [ATTOM](https://www.attomdata.com/), [RentCast](https://developers.rentcast.io/reference/value-estimate), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and historical geographical data from [Geoapify](https://www.geoapify.com/).
+The SmartPrice Intelligence Navigator (SPIN) is an AI-powered solution designed to revolutionize how buyers and sellers interact with the housing market. Combining advanced machine learning with rich historical data from the ATTOM API, SPIN predicts housing prices and market performance with exceptional accuracy. SPIN is an application designed to evaluate how various factors impact real estate pricing in patterns in different geographical locations. The application relies on historical housing sales data from [ATTOM](https://www.attomdata.com/), [RentCast](https://developers.rentcast.io/reference/value-estimate), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and historical geographical data from [Geoapify](https://www.geoapify.com/).
 
 By evaluating factors like property features, neighborhood characteristics, and localized economic conditions, SPIN offers tailored guidance on listing and offer prices. It also accounts for broader influences such as seasonal trends and regional market dynamics, enabling users to respond strategically to market volatility.
 
-SPIN’s intuitive design and insightful recommendations empower users to make data-driven decisions, whether they aim to sell at the highest possible price or buy a home that aligns with their budget and goals. Its focus on clarity and precision makes SPIN an essential navigator in the ever-changing real estate landscape allowing them access real-time market data without the need for reliance upon a realtor.
+SPIN’s intuitive design and insightful recommendations empower users to make data-driven decisions, whether they aim to sell at the highest possible price or buy a home that aligns with their budget and goals. Its focus on clarity and precision makes SPIN an essential navigator in the ever-changing real estate landscape.
 
 ## Programming Language and Technology
 The Housing Prediction Analysis Tool is written in [Python](https://www.python.org/) using [Visual Studio Code](https://code.visualstudio.com/) and the [JSON](https://www.json.org/json-en.html) data interchange format.
@@ -36,12 +36,11 @@ The following Python packages must be installed to run the application locally:
 * Prophet
 * Jupyterlab (only if the .ipynb file is used. running the .py file does not require Jupyterlab)
 
-These packages may be individually installed into the environment of your choice. You will also need to obtain an API key for the RentCast API and store it as RENTCAST_API_Key in a file named local_keys.env. Alternatively, you may enter your ATTOM API key into the code manually, if desired. Additionally, you will need to obtain an API key from Geoapify and store it in your local_keys.env file as geo.
+These packages may be individually installed into the environment of your choice. You will also need to obtain an API key for the ATTOM API and store it as ATTOM_API_Key in a file named local_keys.env. Alternatively, you may enter your ATTOM API key into the code manually, if desired. Additionally, you will need to obtain an API key from Geoapify and store it in your local_keys.env file as geo.
 
 **Project Goals:** 
-  1. Make a prediction model that will help determine the best pricing and the best time to buy or sell a home within any given market without the need to employ a realtor.
-  2. Develop a user interface for the user to input information specific to the housing market they are interested in exploring, enabling them to make informed decisions about their     
-     residential real estate ventures.
+  1. Make a prediction model that will help determine the best pricing and the best time to buy or sell a home within any given market.
+  2. Develop a user interface for the user to input information specific to the housing market they are interested in exploring.
   
 **Impacts on Goal:**
   1. Geo-location
@@ -51,12 +50,6 @@ These packages may be individually installed into the environment of your choice
   5. Property Taxes
   6. Schools
   7. Leisure Activities
-
-**Pilot Project Costs**
-The costs associated with the pilot project for developing the initial version of the SPIN application are expected to be extremely minimal as the majority of the data needed to train and test the model will be retrieved from the RentCast API at no cost.
-
-**Anticipated Risks**
-For the model to be successful, it will need to have a high level of price prediction accuracy. Failure to accurately predict the pricing could provide buyers and sellers with inaccurate data leading them to make poorly-informed real estate decisions.  
 
 ## Initial Research Questions
 
