@@ -161,8 +161,8 @@ The code is designed to predict housing pricing based on user inputs and various
 ## Future Work and Visualizations
 
 Future work and/or recommended enhancements to this project include:
-- Could we firther improve the models?
-- Our original problem statement that we would like to pursue is how price impacts day on market.
+- Could we further improve the models?
+- Our original problem statement that we would like to pursue is how price impacts day on market. So a user would input a price and we would estimate the amount of time it would take to sell.
 - We would like to improve upon the sample application to be more user friendly and provide better predictions.
 
 ## Link to Presentation
