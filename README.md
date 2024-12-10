@@ -18,7 +18,7 @@ The Housing Prediction Analysis Tool is written in [Python](https://www.python.o
 
 Visualizations are provided through the use of [Matplotlib](https://matplotlib.org/) and [Prophet](https://pypi.org/project/prophet/).
 
-Real estate statistics and analysis information were retrieved from [ATTOM](https://www.attomdata.com/), [RentCast](https://developers.rentcast.io/reference/value-estimate), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and geographical information was retrieved from [Geoapify](https://www.geoapify.com/). 
+Real estate statistics and analysis information were retrieved from [ATTOM](https://www.attomdata.com/), [RentCast](https://developers.rentcast.io/reference/value-estimate), [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/), and geographical information was retrieved from [Geoapify](https://www.geoapify.com/) and [Google Places](https://developers.google.com/maps/documentation/places/web-service/overview). 
 
 The [Pandas](https://pandas.pydata.org/) and [Numpy](https://numpy.org/) libraries were used to work with the historical real estate and geographical data retrieved from [Geoapify](https://www.geoapify.com/) APIs.
 
