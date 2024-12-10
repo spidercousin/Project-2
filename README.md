@@ -141,8 +141,22 @@ NEED TO UPDATE THIS
 
 The code is designed to predict housing pricing based on user inputs and various regional factors. Here is an example implementation.
 - Utah Real Estate Predictor: [Sample Prediction Application](https://github.com/hollidaydds/UtahRealEstatePredictor)
-<img src="https://github.com/spidercousin/Project-2/blob/main/Assets/images/image.png" alt="Image description" width="450">
-<img src="https://github.com/spidercousin/Project-2/blob/main/Assets/images/image%20(1).png" alt="Image description" width="415">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/spidercousin/Project-2/blob/main/Assets/images/image.png" alt="Image description" width="380">
+      <br/>      
+      <strong>Landing Page</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/spidercousin/Project-2/blob/main/Assets/images/image%20(1).png" alt="Image description" width="350">
+      <br/>
+      <strong>Prediction Page</strong>
+    </td>
+  </tr>
+</table>
+
 
 ## Future Work and Visualizations
 
