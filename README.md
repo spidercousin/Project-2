@@ -165,10 +165,6 @@ Future work and/or recommended enhancements to this project include:
 - Our original problem statement that we would like to pursue is how price impacts day on market.
 - We would like to improve upon the sample application to be more user friendly and provide better predictions.
 
-**NEED TO UPDATE THIS.**
-
-Graph Type: NEED TO UPDATE THIS
-
 ## Link to Presentation
 [Presentation Slides](https://www.canva.com/design/DAGY1nsZbv8/1nZlyLxf3r5BfHs5uhu4WA/view?utm_content=DAGY1nsZbv8&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
