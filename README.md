@@ -170,7 +170,7 @@ Future work and/or recommended enhancements to this project include:
 Graph Type: NEED TO UPDATE THIS
 
 ## Link to Presentation
-https://www.canva.com/design/NEED TO UPDATE THIS
+[Presentation Slides](https://www.canva.com/design/DAGY1nsZbv8/1nZlyLxf3r5BfHs5uhu4WA/view?utm_content=DAGY1nsZbv8&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## Contributors
 * [Keri Alexander](https://github.com/kerialexander)
