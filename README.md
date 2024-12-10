@@ -126,6 +126,7 @@ For Local Market Data:
 
 For Geolocation:
   - Geoapify API: [Geoapify](https://www.geoapify.com/)
+  - Google Places API: [Google Places](https://developers.google.com/maps/documentation/places/web-service/overview)
 
 ## Initial Visualization Goals
 
