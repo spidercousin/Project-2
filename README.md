@@ -139,13 +139,10 @@ NEED TO UPDATE THIS
 
 ## Example Implementation
 
-The code is designed to predict housing pricing based on user inputs and various regional factors. Here is an example implementation. 
+The code is designed to predict housing pricing based on user inputs and various regional factors. Here is an example implementation.
+- Utah Real Estate Predictor: [Sample Prediction Application](https://github.com/hollidaydds/UtahRealEstatePredictor)
 <img src="https://github.com/spidercousin/Project-2/blob/main/Assets/images/image.png" alt="Image description" width="450">
 <img src="https://github.com/spidercousin/Project-2/blob/main/Assets/images/image%20(1).png" alt="Image description" width="415">
-
-Additionally, the code is designed to run a Prophet model based on the 5-year historical trend to predict average days on market for various housing price points. The sample Prophet model output looks like this:
-
-![image](https://NEED TO UPDATE THIS)
 
 ## Future Work and Visualizations
 
