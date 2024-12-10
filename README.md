@@ -1,4 +1,4 @@
-# Project 2 - GeoValuate: Optimizing Residential Real Estate PredictionS through Machine Learning Models
+# Project 2 - GeoValuate: Optimizing Residential Real Estate Predictions through Machine Learning Models
 
 ## Project Statement
 The real estate market is characterized by pricing volatility influenced by economic conditions, market demand, and localized factors such as neighborhood desirability, school districts, and proximity to amenities. Additionally, geographical attributes like climate, urban density, and regional economic trends significantly impact property pricing and the time required to sell a home.
