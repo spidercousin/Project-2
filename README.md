@@ -137,9 +137,9 @@ Graph Type: Line graph or scatter plot displaying the projected days to sell at 
 ## Results and Conclusions of the Application or Analysis
 NEED TO UPDATE THIS
 
-## Application Output Examples
+## Example Implementation
 
-The code is designed to predict housing pricing based on user inputs and various regional factors. The sample output for this visualization will look like the following plot:
+The code is designed to predict housing pricing based on user inputs and various regional factors. Here is an example implementation. 
 ![image](https://NEED TO UPDATE THIS)
 
 Additionally, the code is designed to run a Prophet model based on the 5-year historical trend to predict average days on market for various housing price points. The sample Prophet model output looks like this:
