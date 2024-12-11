@@ -88,7 +88,8 @@ Here are some initial research questions aligned with the project, including a f
 
 These questions aim to guide the data exploration and model development process, ensuring the project addresses key factors influencing the real estate market.
 
-## Project Roadmap:
+## Project Roadmap
+
   1. Get APIs and information on all the "Impact on goals."
   2. Pull in APIs, clean, and transform them into readable information for Machine Learning model.
   3. Write out step by step how Step 2 was done in the remarks on the Jupyter file.
@@ -97,30 +98,37 @@ These questions aim to guide the data exploration and model development process,
   6. Pick and optimize the best model for UI implementation.
   7. Prompt users to input information.
 
-## Data Model Implementation - Create Jupyter Notebook for Cleaning and Transformation Process 
+## Data Model Implementation
 
-**Create a Jupyter Notebook that Contains the Data Transformation Process and Convert it to a CSV File.**
-- How did we clean it and how did we train it?
-   
+Our model development process was a structured and iterative effort aimed at achieving the project’s goals through data-driven insights and robust model performance. We began with a comprehensive data collection process, ensuring a rich dataset to support model training. This was followed by a thorough data cleanup process to address inconsistencies, outliers, and missing values, laying the foundation for reliable analysis. The dataset was then transformed through a data normalization process, standardizing variables to ensure consistency and comparability across features. Using data exploration techniques, we uncovered patterns, relationships, and potential biases within the dataset, which informed our model design choices. Once trained, the models were rigorously evaluated using testing data, leveraging metrics to assess accuracy, precision, and other performance indicators. This iterative optimization process, embedded directly within our Python script, allowed us to make incremental improvements to the model and achieve the desired outcomes efficiently and effectively.
+
+***Data Collection Process***
+
+The data collection process presented several challenges due to the limitations of the real estate API. Access to several real estate APIs was restricted to real estate professionals or registered businesses, or the number of API calls allowed was limited, requiring careful prioritization of data requests. Additionally, the dataset obtained from the [RentCast API](https://developers.rentcast.io/reference/value-estimate) had a restricted set of fields with incomplete or inaccurate records. Common issues included null fields, incorrect data entries, and numerical anomalies, such as listings with implausible values (e.g., properties listed with 800+ bathrooms). Another anomaly observed was data indicating houses sold in the future, likely due to misconfigured timestamps. These challenges necessitated extensive preprocessing and validation to ensure the integrity and usability of the data for subsequent model development.
+
+***Data Cleanup and Data Normalization Process***
+
+Our team successfully collaborated to optimize a raw data file exported from the [RentCast API](https://developers.rentcast.io/reference/value-estimate). Key steps included:
+
+- Conducting a comprehensive review of each field to identify inconsistencies, outliers, and anomalies.
+- Developing and implementing logic to standardize fields into the correct formats.
+- Cleaning the dataset by dropping null values and refining fields to enhance comparability.
+
+This streamlined approach improved the dataset's accuracy and usability, enabling more reliable analysis and insights.
+
+***Data Exploration Process***
+
+Following data collection and cleanup, the initial data exploration process focused on understanding the dataset’s structure, identifying patterns, and uncovering insights that could guide model development. The team began by examining the distribution of key variables, such as property prices, sizes, and days on market, to identify trends and potential outliers. Correlation analysis was conducted to understand relationships between features and their potential predictive power. Visualization tools, such as scatter plots, and heatmaps, were employed to uncover underlying patterns and detect anomalies that might affect model performance. The team also conducted a preliminary evaluation of missing data handling, ensuring that imputation or exclusion methods applied during cleanup did not introduce bias. This exploratory phase provided critical insights into the data’s characteristics, informed feature selection, and highlighted areas for further refinement to optimize the model-building process.
+
+***Model Training and Evaluation Process***
+
+To evaluate the performance of our models, we adopted a structured process that ensured fairness and reliability in testing. First, the dataset was split into separate training and testing sets to prevent data leakage and provide an unbiased evaluation. The models were trained exclusively on the training dataset, ensuring that the testing data remained unseen during the training phase. Once the models were trained, they were used to generate predictions on the testing data. These predictions were then compared against the actual target values to assess their accuracy. Evaluation metrics, such as R² and mean squared error (MSE), were calculated to quantify the models’ performance, capturing both the overall fit and prediction accuracy. This iterative evaluation process provided critical feedback, allowing us to refine and optimize the models for better predictive accuracy and reliability.
+
 ## Data Model Optimization
 
-**Discuss the model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance by documenting it in either a CSV/Excel table or in the Python script itself.**
-- Data Collection Process
-- Data Cleanup Process
-- Data Normalization Process
-- Data Exploration Process
-- Description of How We Evaluated the Trained Model(s) Using Testing Data
-- The Approach We Took in Achieving the Project Goals
+***Approach to Model Development***
 
-## Data Sources
-
-For Property Data:
-  - ATTOM API: [ATTOM](https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/)
-  - RentCast API: [RentCast API](https://developers.rentcast.io/reference/value-estimate)
-  - Zillow API: [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
-
-For Geolocation:
-  - Google Places API: [Google Places](https://developers.google.com/maps/documentation/places/web-service/overview)
+Our approach to model development was a collaborative and iterative process aimed at optimizing performance and ensuring the best possible results. Each team member independently developed individual models, experimenting with different algorithms, hyperparameters, and feature sets. After the initial model creation phase, the team convened to discuss and compare the performance of these models, using predefined evaluation metrics such as R², mean squared error (MSE), and other relevant indicators. Based on this feedback, we collaboratively refined our models, incorporating shared insights and addressing identified weaknesses. The results of each iteration were meticulously documented directly within the Python scripts, enabling us to track changes in model performance over time. Ultimately, the best-performing models were selected based on their overall performance, balancing accuracy, robustness, and generalizability to achieve our project objectives.
 
 ## Initial Visualization Goals
 
@@ -153,16 +161,22 @@ The code is designed to predict housing pricing based on user inputs and various
   </tr>
 </table>
 
-
 ## Future Work and Visualizations 
 
-Future work and/or recommended enhancements to this project include:
-- Could we further improve the models?
-- Our original problem statement that we would like to pursue is how price impacts day on market. So a user would input a price and we would estimate the amount of time it would take to sell.
-- We would like to improve upon the sample application to be more user friendly and provide better predictions.
+In future iterations of the application, the team aims to enhance the user experience and provide more insightful analytics by incorporating additional features and visualizations. One key enhancement is the integration of advanced search features, such as school rankings and proximity to amenities, allowing users to tailor their property searches to specific preferences. Another priority is the addition of a dynamic feature enabling users to estimate the days on market at various price points. This functionality will empower users to make informed decisions by providing insights into how pricing impacts the time it takes to sell a property. Furthermore, we aim to refine our predictive models, improving accuracy and reliability to ensure better support for user decision-making. Expanding on the original problem statement, the team envisions creating an interactive tool where users can input a price and receive an estimated timeline for selling their property. These advancements will be coupled with improvements to the application’s user interface, ensuring a seamless and intuitive experience that aligns with the project’s goals of delivering actionable, data-driven insights.
 
 ## Link to Presentation
 [Presentation Slides](https://www.canva.com/design/DAGY1nsZbv8/1nZlyLxf3r5BfHs5uhu4WA/view?utm_content=DAGY1nsZbv8&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+## Data Sources
+
+For Property Data:
+  - ATTOM API: [ATTOM](https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/)
+  - RentCast API: [RentCast API](https://developers.rentcast.io/reference/value-estimate)
+  - Zillow API: [Zillow](https://www.zillowgroup.com/developers/api/zestimate/zestimates-api/)
+
+For Geolocation:
+  - Google Places API: [Google Places](https://developers.google.com/maps/documentation/places/web-service/overview)
 
 ## Contributors
 * [Keri Alexander](https://github.com/kerialexander)
